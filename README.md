@@ -1,15 +1,6 @@
-特别说明，这是一个学习型的项目（注释会尽量详细），项目成型时间估计半年，刚刚做不久加上对yii2很多功能不熟，难免有缺陷。有什么建议可以联系我：phphome@qq.com
+这是一个YII的后台管理项目，根据在实际工作的需要做了一个相对比较通用的后台。大家有什么建议给我发邮件 1692576541@qq.com
 
-如遇bug请告诉作者哦，花你一分钟时间就可以让项目更易使用.^_^.
-
-github : https://github.com/e282486518/yii2admin 
-
-oschina : http://git.oschina.net/ccdream/yii2admin （国内可以下载这个）
-
-交流：http://www.yiichina.com/code/1052 （遇到bug不愿发邮件的可以贴到这里）
-
-全站打包：https://share.weiyun.com/43fba6e5d21dbcdffe32920f78665f18 （不定期更新，安装出错的朋友可以试试这个）
-
+github : https://github.com/AlexChangTao/yii_admin
 
 ##一、开发基础说明
 * 系统配置文件为.env文件。
@@ -66,25 +57,20 @@ Yii::$app->params['web'] = Config::lists();
 
 
 ##三、服务器配置
-
-* Apache: [点击查看](https://github.com/e282486518/yii2admin/blob/master/doc/htaccess.txt)
-
-* Nginx: [点击查看](https://github.com/e282486518/yii2admin/blob/master/doc/nginx.conf)
+自行百度相关教程，这里就不再列出
 
 ##四、安装
 
 一键安装方法如下：
 
 ```
-1、下载源文件或git clone https://github.com/e282486518/yii2admin.git
+1、下载源文件或git clone https://github.com/AlexChangTao/yii_admin
 2、composer install #安装依赖扩展
 3、php ./yii install/install #配置环境、配置数据库并安装数据库
 4、参照 doc 目录下的Nginx和Apache配置文件，配置服务器，并设置hosts文件。
 
 超级管理员账号： admin 123456
 普通管理员： guanli 123456
-编辑人员： feifei 123456
-```
 
 
 ##五、预览
